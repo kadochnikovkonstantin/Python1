@@ -11,8 +11,3 @@ class User:
 
     def print_last_name(self):
         print(self.last_name)
-
-my_user = User("John", "Doe")
-my_user.print_name()
-my_user.print_first_name()
-my_user.print_last_name()

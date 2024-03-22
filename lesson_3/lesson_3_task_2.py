@@ -1,9 +1,4 @@
-class Smartphone:
-    def __init__(self, model, number, brand):
-        self.model = model
-        self.number = number
-        self.brand = brand
-
+from smartphone import Smartphone
 catalog = []
 
 for _ in range(1):
