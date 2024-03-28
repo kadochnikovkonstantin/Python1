@@ -1,1 +1,13 @@
-Всё в коде написано корректно.
+В файле test_string_utils.py были обнаружены следующие баги:
+
+#a = b.capitilize(None)
+#assert a == ""
+
+#a = b.to_list(None)
+#assert a == ["a b c d"]
+
+# a = b.starts_with(" SkyPro", "S")
+# assert a == True
+
+#a = b.is_empty(None)
+#assert a == True
